@@ -22,3 +22,5 @@ NLTK
 LIME
 
 ROUGE-score
+
+*install torch trasnformers scikit-learn nltk lime rouge-score   for required dependencies
