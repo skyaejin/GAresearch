@@ -66,7 +66,6 @@ def predict_proba(text_list):
         probs = F.softmax(outputs, dim=1).cpu().numpy()
     return probs
 
-# Pick a test example to explain
 idx = 0
 sample_text = fake_df['text'].iloc[len(X_train_ids)+len(X_val_ids)+idx]  # first test sample text
 sample_label = fake_df['label'].iloc[len(X_train_ids)+len(X_val_ids)+idx]
